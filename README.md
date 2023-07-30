@@ -50,8 +50,8 @@ mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/simple-todo-app-with-vanilla-js-Tfzge5UZE3](https://www.frontendmentor.io/solutions/simple-todo-app-with-vanilla-js-Tfzge5UZE3)
+- Live Site URL: [https://todo-app-main-psi.vercel.app/](https://todo-app-main-psi.vercel.app/)
 
 ## My process
 
