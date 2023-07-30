@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body data-theme = "dark">
+  <main>
+    <div class="wrapper">
+      <div id="header">
+        <h1>T O D O</h1>
+        <button id="theme-switcher">
+          <img src="/images/icon-sun.svg" alt="">
+        </button>
+      </div>
+      <div id="new-todo">
+        <button id="new-checkbox">
+        </button>
+        <input id="new-todo-input" class="text" type="text" placeholder="Create a new todo...">
+      </div>
+      <div id="todo-list-container">
+        <ul id="todo-list">
+        </ul>
+      </div>
+      <div id="container-functionality">
+        <p id="items-count"><span id="number-of-items">0</span> items left</p>
+        <div class="mobile-templete">
+          <button id="all-button"><span>All</span></button>
+          <button id="active-button"><span>Active</span></button>
+          <button id="completed-button"><span>Completed</span></button>
+        </div>
+        <button id="clear-completed-button"><span>Clear Completed</span></button>
+      </div>
+      <div class="mobile-block">  
+      </div>
+      <p id="reminder">Drag and drop to reorder list</p>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Rikcher">Rikcher</a>.
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
